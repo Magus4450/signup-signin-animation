@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In/Up Animation</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signinup">
+
+            <div class="box1">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <button type="button" id="signin">SIGN IN</button>
+            </div>
+
+            <div class="box3 hidden">
+                <h1>Hello, Friend!</h1>
+                <p>Enter your personal details and start with us</p>
+                <button type="button" id='signup'>SIGN UP</button>
+            </div>
+
+            <div class="box2">
+                <h1>Create Account</h1>
+                <div class="socials">
+                    <div class="social"><i class="fab fa-linkedin-in"></i></div>
+                    <div class="social"><i class="fab fa-google"></i></div>
+                    <div class="social"><i class="fab fa-facebook-f"></i></div>
+                </div>
+                <p>or use email for registration</p>
+                <form action="">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="password" name="password" placeholder="Password">
+                    <button type="submit" class='sign'>Sign Up</button>
+                </form>
+            </div>
+
+            <div class="box4 hidden">
+                <h1>Sign in</h1>
+                <div class="socials">
+                    <div class="social"><i class="fab fa-linkedin-in"></i></div>
+                    <div class="social"><i class="fab fa-google"></i></div>
+                    <div class="social"><i class="fab fa-facebook-f"></i></div>
+                </div>
+                <p>or use your account</p>
+                <form action="">        
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="password" name="password" placeholder="Password">
+                    <p>Forgot your password?</p>
+                    <button type="submit" class='sign'>Sign Up</button>
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
